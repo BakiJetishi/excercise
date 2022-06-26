@@ -1,0 +1,89 @@
+body {
+    max-width: 100vh;
+    margin: 30px auto;
+}
+
+.logo1 {
+    width: 400px;
+}
+
+.navbar {
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgba(0, 238, 255, 0.5);
+}
+
+.navbar a::after {
+    content: ' / ';
+}
+
+.navbar a:last-child::after { 
+    content:''; 
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    font-size: 35px;
+}
+
+.title p {
+    font-size: 17px;
+}
+
+.title .social-media a img {
+    width: 50px;
+    margin: 50px 0;
+}
+
+.images .responsive {
+    min-width: 340px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+.content .aside input{
+    display: block;
+    margin: 0 50px 20px 0;
+}
+
+.article .responsive {
+    width: 100%;
+}
+
+.article h4 {
+    margin-bottom: 0;
+}
+.article blockquote {
+    margin-top: 0;
+}
+
+.footer {
+    padding: 10px 100px 10px 10px;
+    background-color: rgba(0, 238, 255, 0.5);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer .recipes select {
+    width: 110px;
+}
+
+.footer span {
+    display: block;
+}
+
+.footer .subscribe button {
+    margin-top: 20px;
+}
